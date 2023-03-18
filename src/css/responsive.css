@@ -1,0 +1,90 @@
+@media(max-width:1025px){
+    .container .imagem img{
+        width: 50vw;
+    }
+
+    .container .conteudo .sobre{
+        text-align: center;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .container .conteudo .sobre h1{
+        font-size: 25px;
+        margin: 50px 40px 0;
+    }
+
+    .container .conteudo .sobre p{
+        font-size: 16px;
+    }
+
+    .container .conteudo .sobre .botao{
+        font-size: 12px;
+        padding: 8px 30px;
+    }
+
+    .container .conteudo .social {
+        margin: 30px 50px 0;
+    }
+}
+
+@media(max-width:835px){
+    .cabecalho{ 
+        margin: 20px 12px 12px;
+    }
+
+    .cabecalho img{ 
+        height: 28px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .imagem {
+        margin:30px 30px 0;
+    }
+
+    .container .imagem img{
+        width: 100%;
+    }
+    
+    .container .conteudo{
+        justify-content: center;
+    }
+
+    .container .conteudo .sobre h1{
+        font-size: 18px;
+        line-height: 30px;
+        margin: 10px;
+    }
+
+    .container .conteudo .sobre p{
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .container .conteudo .social {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .container .conteudo .social .circulo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .container .conteudo .social a {
+        margin: 5px;
+    }
+
+    .container .conteudo .social i{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:376px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat hsl(257, 40%, 49%);
+    }
+}

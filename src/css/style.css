@@ -1,0 +1,96 @@
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    max-width: 1440px;
+}
+
+.cabecalho{ 
+    margin: 50px;
+}
+
+.cabecalho img{ 
+    height: 55px;
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.container .imagem{
+    margin: 30px 50px 30px 70px;
+}
+
+.container .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .conteudo .sobre{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.container .conteudo .sobre h1{
+    font-size: 43px;
+    margin-right: 60px;
+}
+
+.container .conteudo .sobre p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container .conteudo .sobre .botao{
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 120px;
+    padding: 15px 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.container .conteudo .sobre .botao:active{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.container .conteudo .social {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.container .conteudo .social a {
+    color: white;
+    margin: 10px;
+}
+
+.container .conteudo .social a:active {
+    color: hsl(300, 69%, 71%);
+}
+
+.container .conteudo .social .circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.6px solid;
+}
+
+.container .conteudo .social i{
+    font-size: 25px;
+}
