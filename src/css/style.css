@@ -1,6 +1,8 @@
+html{
+    min-height: 100vh;
+}
 body{
-    background-image: url(../images/bg-desktop.svg);
-    background-color: hsl(257, 40%, 49%);
+    background:hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center/cover;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: white;
@@ -59,9 +61,10 @@ body{
     border: none;
     box-sizing: content-box;
     cursor: pointer;
+    box-shadow: 0px 0px 20px black;
 }
 
-.container .conteudo .sobre .botao:active{
+.container .conteudo .sobre .botao:hover{
     color: white;
     background-color: hsl(300, 69%, 71%);
 }
@@ -77,7 +80,7 @@ body{
     margin: 10px;
 }
 
-.container .conteudo .social a:active {
+.container .conteudo .social a:hover {
     color: hsl(300, 69%, 71%);
 }
 
